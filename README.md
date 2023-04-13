@@ -22,7 +22,7 @@ The repository contains the following files and folders:
 - fake_pizzas_bce: Folder containing the fake pizza images generated using the GAN with Binary Cross Entropy (BCE) loss.
 - fake_pizzas_wasserstein: Folder containing the fake pizza images generated using the GAN with Wasserstein distance.
 
-# How it Works
+# How it 
 The code in hw7_evaluation.ipynb uses a GAN to generate fake pizza images. The generator is trained on a dataset of real pizza images, and the discriminator is trained to distinguish between real and fake pizza images. Once trained, the generator is used to generate fake pizza images, which are then evaluated using the FID score.
 
 The mydataloader class is used to load the real pizza images into the PyTorch dataloader. The Discriminator and Generator classes define the architectures of the discriminator and generator networks, respectively. The generate_fake_pizzas function generates a specified number of fake pizza images using the trained generator and saves them in the fake_pizzas_bce and fake_pizzas_wasserstein folders. The display_image_grid function generates a 4x4 grid of fake pizza images and saves it in the repository folder. The list_directories and fid_score_calculator functions are used to calculate the FID score for the generated images.
