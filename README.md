@@ -10,8 +10,9 @@ This repository contains an implementation of a Generative Adversarial Network (
 1. Clone repository to your local machine
 2. Install the required dependencies by running the following command: pip3 install -r requirements.txt
 3. Navigate to the repository folder.
-4. Open the Jupyter notebook hw7_evaluation.ipynb.
-5. Execute the cells in the notebook in the order they appear.
+4. Put your evaluation images within the directory 'pizzas'
+5. Open the Jupyter notebook hw7_evaluation.ipynb.
+6. Execute the cells in the notebook in the order they appear.
 
 # Files and Folders
 The repository contains the following files and folders:
