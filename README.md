@@ -1,5 +1,5 @@
 # GAN Image Generation with FID score evaluation
-This repository contains the code for generating fake pizza images using Generative Adversarial Networks (GAN) and evaluating them using the Frechet Inception Distance (FID) score.
+This repository contains the code for generating fake pizza images using Generative Adversarial Networks (GAN) and evaluating them using the Frechet Inception Distance (FID) score
 
 The code is written in Python 3 and uses the PyTorch deep learning framework.
 
